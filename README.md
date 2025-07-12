@@ -30,23 +30,23 @@ Apesar da simplicidade, o projeto me proporcionou uma ótima experiência práti
    ```bash
    git clone https://github.com/seu-usuario/buscador-web.git
    ```
-Navegue até o diretório:
+2. Navegue até o diretório:
 
 ```bash
 cd buscador-web
 ```
-Instale as dependências (se desejar recompilar o SCSS):
+3. Instale as dependências (se desejar recompilar o SCSS):
 
 ```bash
 npm install
 ```
 
-Compile o SCSS (se for modificar):
+4. Compile o SCSS (se for modificar):
 ```bash
 sass css/style.scss css/style.css
 ```
 
-Abra o index.html no navegador ou suba em um servidor estático.
+5. Abra o index.html no navegador ou suba em um servidor estático.
 
 ## ✨ Resultado
 O projeto funciona como um buscador visualmente agradável e funcional. Ao digitar algo e clicar no ícone de busca, você será redirecionado ao Google com o termo pesquisado.

@@ -1,0 +1,106 @@
+$background: green;
+$color: #000;
+$fa-font-path: "../node_modules/@fortawesome/fontawesome-free/webfonts";
+
+@import "@fortawesome/fontawesome-free/scss/fontawesome";
+@import "@fortawesome/fontawesome-free/scss/solid";
+
+#containerEmail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 15px;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+  img {
+    width: 40%;
+    height: auto;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  #campoBusca {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+
+    input {
+      width: 100%;
+      padding: 20px 60px 20px 20px; // espaço à direita pro ícone
+      border-radius: 20px;
+      border: 1px solid #ccc;
+      font-size: 18px;
+      box-sizing: border-box;
+    }
+
+    button {
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      margin: 0;
+
+      i {
+        font-size: 20px;
+        color: $color;
+      }
+    }
+  }
+}
+
+// RESPONSIVIDADE
+@media (max-width: 1000px) {
+  #containerEmail {
+    padding: 15px;
+  }
+
+  img {
+    width: 60%;
+  }
+
+  #campoBusca {
+    max-width: 90%;
+
+    input {
+      font-size: 16px;
+      padding: 16px 50px 16px 16px;
+    }
+
+    button i {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 70%;
+  }
+
+  #campoBusca {
+    max-width: 100%;
+
+    input {
+      font-size: 16px;
+      padding: 16px 50px 16px 16px;
+    }
+
+    button i {
+      font-size: 18px;
+    }
+  }
+}

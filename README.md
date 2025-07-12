@@ -54,7 +54,7 @@ O projeto funciona como um buscador visualmente agradável e funcional. Ao digit
 ## 📚 Aprendizado
 Mesmo sendo um projeto simples, ele foi fundamental para aplicar de forma prática os conceitos de SCSS em um projeto real. Me ajudou a entender melhor variáveis, aninhamento, organização do CSS e também boas práticas de responsividade.
 
-##🧑‍💻 Autor
+## 🧑‍💻 Autor
 Desenvolvido por Dérick Campos Santos
 - [Linkedin](https://linkedin.com/in/derick-campos-santos)
 - [Portfólio](https://derickcs.vercel.app)

@@ -32,19 +32,19 @@ Apesar da simplicidade, o projeto me proporcionou uma ótima experiência práti
    ```
 2. Navegue até o diretório:
 
-```bash
-cd buscador-web
-```
+   ```bash
+   cd buscador-web
+   ```
 3. Instale as dependências (se desejar recompilar o SCSS):
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 4. Compile o SCSS (se for modificar):
-```bash
-sass css/style.scss css/style.css
-```
+   ```bash
+   sass css/style.scss css/style.css
+   ```
 
 5. Abra o index.html no navegador ou suba em um servidor estático.
 
